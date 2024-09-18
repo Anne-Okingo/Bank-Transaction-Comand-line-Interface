@@ -1,7 +1,6 @@
 package functions
 
-
-func Credit(initialBalance, cash int)int{
+func Credit(initialBalance, cash int) int {
 
 	return initialBalance + cash
 }
