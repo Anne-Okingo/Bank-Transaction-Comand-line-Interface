@@ -1,0 +1,3 @@
+Create a multi module project in go that mimics a bank, a user should be able to perform credit and  debit functionalities where credit involves adding money to the account and debit involves removing money. You can hardcode the name of the user, the account number and it should have an initial balance of 1000.
+go run  . credit 1000 should reduce the account balance by 1000 and show on the console that the account balance is less than the credit amount.
+Go run . debit 1000 should increase the account by 1000 and show on the console the new balance after the debiting of the account.
