@@ -25,8 +25,8 @@ func main() {
 	instructions := os.Args[1]
 	str := os.Args[2]
 	cash, err := strconv.Atoi(str)
-	if err != nil {
-		fmt.Println("Error:", err)
+	if err != nil || cash < 0 {
+		fmt.Println("Error enter the correct amount:", err)
 		return
 	}
 
